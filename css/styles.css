@@ -56,7 +56,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #dadada;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -3969,6 +3969,12 @@ input[type=button].btn-block {
 .poster-border {
   border: 0.5px solid rgb(228, 228, 228);
   border-radius: 10px;
+  background-color: #fff;
+  color: black;
+}
+
+hr {
+  border-color: black !important;
 }
 
 .navbar {
@@ -10175,6 +10181,7 @@ h3 {
   position: relative;
   display: block;
   width: 100%;
+  height: 100%;
   border-radius: 0.5rem;
   overflow: hidden;
 }
